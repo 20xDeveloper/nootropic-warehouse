@@ -1,0 +1,100 @@
+.form-dialog-container {
+	position: relative;
+	bottom: 2em;
+	left: 65%;
+}
+
+.set-price-search-icon {
+	// left: 33em;
+	//the above was the old version.
+	left: 100% !important;
+}
+
+.set-pricing-radio-group {
+	margin-right: 75%;
+	white-space: nowrap;
+}
+
+.set-pricing-radio-input {
+	position: relative;
+	left: 75%;
+}
+
+.set-pricing-radio-group-label {
+	position: relative;
+	top: 2.3em;
+}
+
+.set-pricing-checkbox {
+	margin-left: 7.3em;
+	margin-top: 0.5em;
+}
+
+.set-pricing-account-input-1 {
+	// margin-top: 2%;
+	border-color: rgb(0, 140, 255);
+	width: 60%;
+}
+.set-pricing-account-input-2 {
+	// margin-top: 2%;
+	border-color: rgb(0, 140, 255);
+	width: 33%;
+}
+
+@media (max-width: 1280px) {
+	// .set-price-search-icon {
+	// 	left: 100% !important;
+	// }
+}
+
+.find-account-info-input-group {
+	white-space: nowrap;
+	margin-top: 2em;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.find-account-info-search-button {
+	// 	position: relative;
+	// left: 325px;
+	// bottom: 35px;
+	margin: 0px;
+	padding: 0px;
+	width: 30px;
+	height: 2.6em;
+	position: relative;
+	// top: 1.5em;
+	top: 0em;
+	height: 2.4em;
+}
+
+.find-account-info-input-group {
+	width: 100%;
+	white-space: nowrap;
+}
+
+#set-price-close-button {
+	float: right;
+}
+
+#form-dialog-title\ set-price-dialog-header {
+	white-space: nowrap !important;
+}
+
+.set-price-confirm-button {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4%;
+	margin-bottom: 3%;
+}
+
+.find-account-info-button {
+	margin-left: 37%;
+	margin-right: 25%;
+	margin-top: 1.5em;
+	white-space: nowrap;
+}
+
+.dummy-text {
+	display: none;
+}

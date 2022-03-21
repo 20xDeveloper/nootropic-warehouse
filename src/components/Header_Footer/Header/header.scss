@@ -1,0 +1,176 @@
+/* navigation */
+#root > div > nav {
+	background-color: black!important;
+}
+
+a {
+	color: white !important;
+	font-size: 13.5px;
+}
+.something {
+	color: white;
+}
+
+nav {
+	padding-left: 10% !important;
+	padding-right: 10% !important;
+	white-space: nowrap;
+}
+
+.btn-outline-primary {
+	width: 5em;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.cart-button{
+	margin-left: 0px;
+}
+/* the toggle english switch css */
+// .switch {
+// 	position: relative;
+// 	display: inline-block;
+// 	width: 60px;
+// 	height: 34px;
+// }
+
+// .switch input {
+// 	opacity: 0;
+// 	width: 0;
+// 	height: 0;
+// }
+
+// .slider {
+// 	position: absolute;
+// 	cursor: pointer;
+// 	top: 0;
+// 	left: 0;
+// 	right: 0;
+// 	bottom: 0;
+// 	background-color: #ccc;
+// 	-webkit-transition: 0.4s;
+// 	transition: 0.4s;
+// }
+
+// .slider:before {
+// 	position: absolute;
+// 	content: "";
+// 	height: 26px;
+// 	width: 26px;
+// 	left: 4px;
+// 	bottom: 4px;
+// 	background-color: white;
+// 	-webkit-transition: 0.4s;
+// 	transition: 0.4s;
+// }
+
+// input:checked + .slider {
+// 	background-color: #2196f3;
+// }
+
+// input:focus + .slider {
+// 	box-shadow: 0 0 1px #2196f3;
+// }
+
+// input:checked + .slider:before {
+// 	-webkit-transform: translateX(26px);
+// 	-ms-transform: translateX(26px);
+// 	transform: translateX(26px);
+// }
+
+// /* Rounded sliders */
+// .slider.round {
+// 	border-radius: 34px;
+// }
+
+// .slider.round:before {
+// 	border-radius: 50%;
+// }
+
+/* tablet styles */
+@media screen and (max-width: 1470px) {
+	/* body{
+    width: 100% !important;
+  }
+    nav{
+      width: 1500px !important;
+    } */
+}
+
+/* .navbar {
+    width: 2000px;
+
+} */
+
+/* Table body row styles */
+.table-body-buttons {
+	opacity: 1;
+}
+
+/* toggle styles */
+.toggle {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	width: 75px;
+	height: 32px;
+	display: inline-block;
+	position: relative;
+	border-radius: 50px;
+	overflow: hidden;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	background-color: #707070;
+	transition: background-color ease 0.3s;
+}
+
+.toggle:before {
+	content: "Fr Eng";
+	display: block;
+	position: absolute;
+	z-index: 2;
+	width: 28px;
+	height: 28px;
+	background: #fff;
+	left: 2px;
+	top: 2px;
+	border-radius: 50%;
+	font: 10px/28px Helvetica;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-indent: -22px;
+	word-spacing: 37px;
+	color: #fff;
+	text-shadow: -1px -1px rgba(0, 0, 0, 0.15);
+	white-space: nowrap;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+	transition: all cubic-bezier(0.3, 1.5, 0.7, 1) 0.3s;
+}
+
+.toggle:checked {
+	background-color: blue;
+}
+
+.toggle:checked:before {
+	left: 50px;
+}
+
+
+.header-nav-link:hover {
+	text-decoration: underline;
+}
+
+
+
+//global styles
+#navbarNav > ul > li > button {
+	white-space: nowrap !important;
+	padding-right: 5em !important;
+}
+
+
+
+

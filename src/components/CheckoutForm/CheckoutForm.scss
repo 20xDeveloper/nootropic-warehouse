@@ -1,0 +1,15 @@
+.credit-card-radio-label {
+    float: right;
+    margin-right: 80%;
+}
+
+.credit-card-information-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.credit-card-number-input-field {
+    border: 1px solid black;
+    // border-color: black;
+    border-radius: 25px;
+}

@@ -1,0 +1,30 @@
+.shopping-cart-product-view-image-container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 10px;
+    position: relative;
+}
+
+.shopping-cart-product-view-image {
+    position:absolute;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.shopping-cart-product-view-description-shipping-details-styles {
+    margin-left: 11em;
+}
+
+// .shopping-cart-product-view-description {
+//     margin-right: 35%;
+// }
+
+// .shopping-cart-product-view-row-container {
+//     margin-top: 45%
+// }

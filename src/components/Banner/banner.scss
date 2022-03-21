@@ -1,0 +1,20 @@
+.banner {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    text-align: center;
+    color: white;
+}
+
+.about-us-banner {
+    background-image: url("./BannerBackgroundImages/about-us-background.jpg");
+}
+
+.about-our-product {
+    background-image: url("./BannerBackgroundImages/aboutOurProducts.png");
+    // background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+// .banner {
+//     margin-bottom: 3rem;
+// }

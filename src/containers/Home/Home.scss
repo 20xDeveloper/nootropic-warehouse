@@ -1,0 +1,79 @@
+.home-news-letter {
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.on-sale-products-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.on-sale-product-wrapper-primary {
+    width: 500px;
+    height: 500px;
+}
+
+.on-sale-product {
+    width: 100%;
+    height: 100%;
+}
+
+.on-sale-product-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    // margin-top: 25%;
+  //   margin-bottom: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.on-sale-products-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+
+  .on-sale-product-details-wrapper {
+    white-space: nowrap;
+    // margin-left: 15%;
+    margin-top: 15px;
+    width: 100%;
+    height: 100%;
+  }
+
+
+//   .best-seller-image-wrapper{
+//       width: 500px;
+//       height: 500px
+      
+//   }
+
+  .best-seller-image{
+    background-image: url("../../images/qualia.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 650px; /* You must set a specified height */
+    // width: 100%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 100% 100%; /* Resize the background image to cover the entire container */
+  }
+
+
+//   .home-best-seller-banner{
+//       margin-top: 0px;
+//       margin-bottom: 0px;
+//   }
+
+
+@media(min-width: 1800px){
+    .best-seller-image {
+        height: 1000px;
+    }
+}

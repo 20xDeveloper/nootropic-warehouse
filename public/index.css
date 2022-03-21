@@ -1,0 +1,66 @@
+html, body {
+	height: 100%;
+	margin: 0;
+  }
+  .wrapper {
+	min-height: 100%;
+  
+	/* Equal to height of footer */
+	/* But also accounting for potential margin-bottom of last child */
+	margin-bottom: -50px;
+  }
+  .footer,
+  .push {
+	height: 50px;
+  }
+
+  /* footer {
+	height: 10rem;
+	padding-top: 3rem !important;
+} */
+
+footer {
+	margin-top: 3em;
+	background-color: black !important;
+
+}
+
+.list-inline-item {
+	/* width: 1.5em;
+	height: 1.5em; */
+
+}
+
+.fab {
+	width: 1.5em;
+	height: 1.3em;
+	transition: 2s;
+}
+
+.fa-facebook-f:hover {
+	background-color: blue;
+	transition: 2s;
+	border-radius: 25px;
+}
+
+.fa-twitter:hover {
+	background-color: lightblue;
+	transition: 2s;
+	border-radius: 25px;
+
+}
+
+.fa-google-plus-g:hover {
+	background-color: red;
+	transition: 2s;
+	border-radius: 25px;
+
+}
+
+.fa-linkedin-in:hover{
+	background-color: blue;
+	transition: 2s;
+	border-radius: 25px;
+
+}
+
